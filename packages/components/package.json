@@ -1,11 +1,10 @@
 {
     "name": "flowise-components-test",
-    "version": "1.4.3",
+    "version": "1.4.5",
     "description": "Flowiseai Components",
     "main": "dist/src/index",
     "types": "dist/src/index.d.ts",
     "scripts": {
-        "preinstall": "npx only-allow pnpm",
         "build": "tsc && gulp",
         "dev": "tsc --watch",
         "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

@@ -1,6 +1,6 @@
 {
     "name": "flowise-test",
-    "version": "1.4.3",
+    "version": "1.4.7",
     "private": true,
     "homepage": "https://flowiseai.com",
     "workspaces": [
@@ -10,7 +10,6 @@
         "components"
     ],
     "scripts": {
-        "preinstall": "npx only-allow pnpm",
         "build": "turbo run build",
         "build-force": "pnpm clean && turbo run build --force",
         "dev": "turbo run dev --parallel",
@@ -60,6 +59,6 @@
         ]
     },
     "engines": {
-        "node": ">=18.15.0"
+        "node": ">=18.15.0 <19.0.0 || ^20"
     }
 }
